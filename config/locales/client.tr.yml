@@ -115,6 +115,7 @@ tr:
     admin_title: "Admin"
     flags_title: "Flags"
     show_more: "daha fazla göster"
+    show_help: "yardım"
     links: "Links"
     links_lowercase: "bağlantı"
     faq: "SSS"
@@ -294,16 +295,16 @@ tr:
     user:
       said: "{{username}}:"
       profile: "Profil"
-      mute: "Mute"
-      edit: "Edit Preferences"
-      download_archive: "download archive of my posts"
+      mute: "Sessize Al"
+      edit: "Tercihleri Düzenle"
+      download_archive: "mesajlarımın arşivini indir"
       private_message: "Özel Mesaj"
       private_messages: "Özel Mesajlar"
-      activity_stream: "Activity"
+      activity_stream: "Aktiviteler"
       preferences: "Ayarlar"
       bookmarks: "Yer İşaretleri"
-      bio: "Benim Hakkımda"
-      invited_by: "Invited By"
+      bio: "Hakkımda"
+      invited_by: "Davet Eden"
       trust_level: "Güven Seviyesi"
       notifications: "Bildirimler"
       disable_jump_reply: "Cevap yazdığımda sayfayı yeni mesaja kaydırma"
@@ -311,12 +312,12 @@ tr:
       edit_history_public: "Let other users view my post revisions"
       external_links_in_new_tab: "Tüm harici linkleri yeni bir tabda aç"
       enable_quoting: "Seçili metnin alıntıyla cevaplanmasına izin ver"
-      change: "change"
-      moderator: "{{user}} is a moderator"
-      admin: "{{user}} is an admin"
-      moderator_tooltip: "This user is a moderator"
-      admin_tooltip: "This user is an admin"
-      suspended_notice: "This user is suspended until {{date}}."
+      change: "değiştir"
+      moderator: "{{user}} moderatördür"
+      admin: "{{user}} admindir"
+      moderator_tooltip: "Bu kullanıcı moderatördür"
+      admin_tooltip: "Bu kullanıcı admindir"
+      suspended_notice: "Bu kullanıcı {{date}} tarihine kadar askıya alınmış."
       suspended_reason: "Sebep: "
       mailing_list_mode: "Her yeni mesaj içine e-posta gönder (sessize alınan konu ve kategoriler hariç)"
       watched_categories: "Yakın Takiptekiler"
@@ -379,6 +380,14 @@ tr:
 
       change_profile_background:
         title: "Profil arka plan resmi"
+        instructions: "Profil arka planları ortalanacaktır ve genişlikleri varsayılan olarak 850px olacaktır."
+      
+      change_card_background:
+        title: "Kullanıcı kartı arka plan resmi"
+        instructions: "Aarka plan resimleri ortalanacaktır ve genişlikleri varsayılan olarak 590px olacaktır."
+      
+      card_badge:
+        title: "Kullanıcı kartı rozeti"
 
       email:
         title: "E-posta"
@@ -706,7 +715,7 @@ tr:
       auto_close_error: "Please enter a valid value."
 
     notifications:
-      title: "@isim atıfları, ceplar, özel mesajların bildirimleri vb."
+      title: "@isim atıfları, cevaplar, özel mesajların bildirimleri vb."
       none: "Hiç bildiriminiz bulunmuyor."
       more: "eski bildirimleri göster"
       total_flagged: "total flagged posts"
